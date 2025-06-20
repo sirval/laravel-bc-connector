@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace BcConnector\LaravelBcConnector\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelBcConnectorCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-bc-connector';
 
     public $description = 'My command';
 

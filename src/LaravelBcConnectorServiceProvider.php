@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace BcConnector\LaravelBcConnector;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use BcConnector\LaravelBcConnector\Commands\LaravelBcConnectorCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class LaravelBcConnectorServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('laravel-bc-connector')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_laravel_bc_connector_table')
+            ->hasCommand(LaravelBcConnectorCommand::class);
     }
 }
