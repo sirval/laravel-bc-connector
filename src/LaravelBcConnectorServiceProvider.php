@@ -2,9 +2,9 @@
 
 namespace BcConnector\LaravelBcConnector;
 
+use BcConnector\LaravelBcConnector\Commands\LaravelBcConnectorCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use BcConnector\LaravelBcConnector\Commands\LaravelBcConnectorCommand;
 
 class LaravelBcConnectorServiceProvider extends PackageServiceProvider
 {

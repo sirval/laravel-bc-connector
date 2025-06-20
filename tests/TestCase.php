@@ -2,9 +2,9 @@
 
 namespace BcConnector\LaravelBcConnector\Tests;
 
+use BcConnector\LaravelBcConnector\LaravelBcConnectorServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use BcConnector\LaravelBcConnector\LaravelBcConnectorServiceProvider;
 
 class TestCase extends Orchestra
 {
