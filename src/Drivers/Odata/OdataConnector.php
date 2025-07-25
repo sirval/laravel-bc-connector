@@ -2,7 +2,6 @@
 
 namespace BcConnector\LaravelBcConnector\Drivers\Odata;
 
-
 class OdataConnector
 {
     protected $client;

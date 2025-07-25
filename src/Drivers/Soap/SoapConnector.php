@@ -15,4 +15,4 @@ class SoapConnector
     {
         return $this->client->__soapCall($function, [$params]);
     }
-}   
+}

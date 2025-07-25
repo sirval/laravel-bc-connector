@@ -28,7 +28,7 @@ class OAuth2
     public function getSoapHeaders(): array
     {
         return [
-            new SoapHeader('http://schemas.xmlsoap.org/ws/2005/05/identity/claims', 'Authorization', 'Bearer ' . $this->token)
+            new SoapHeader('http://schemas.xmlsoap.org/ws/2005/05/identity/claims', 'Authorization', 'Bearer '.$this->token),
         ];
     }
 }

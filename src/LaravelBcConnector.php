@@ -5,7 +5,8 @@ namespace BcConnector\LaravelBcConnector;
 use BcConnector\LaravelBcConnector\Drivers\Odata\OdataConnector;
 use BcConnector\LaravelBcConnector\Drivers\Soap\SoapConnector;
 
-class LaravelBcConnector {
+class LaravelBcConnector
+{
     protected $driver;
 
     public function __construct(array $config)
@@ -18,7 +19,7 @@ class LaravelBcConnector {
                 $this->driver = new OdataConnector($config);
                 break;
             default:
-                throw new \InvalidArgumentException("Unsupported BC connection type.");
+                throw new \InvalidArgumentException('Unsupported BC connection type.');
         }
     }
 

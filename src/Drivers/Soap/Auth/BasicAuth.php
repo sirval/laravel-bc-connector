@@ -5,6 +5,7 @@ namespace BcConnector\LaravelBcConnector\Drivers\Soap\Auth;
 class BasicAuth
 {
     protected $username;
+
     protected $password;
 
     public function __construct(array $config)
